@@ -4,3 +4,4 @@ main: com.bghddevelopment.buildmode.BuildMode
 author: BGHDDevelopmentLLC
 website: https://bghddevelopment.com/
 softdepend: [PlaceholderAPI]
+api-version: 1.13
