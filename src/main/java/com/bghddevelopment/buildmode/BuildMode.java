@@ -51,7 +51,11 @@ public class BuildMode extends JavaPlugin
             Color.log("&ePlaceholders Registered!");
         }
         Color.log("&eBuildMode Version: " + getDescription().getVersion() + " Loaded.");
-        updateCheck(Bukkit.getConsoleSender(), true);
+
+        if (config.getBoolean("updateCheck", true)) {
+            updateCheck(Bukkit.getConsoleSender(), true);
+        }
+
         this.setEnabled(true);
     }
     private File configf;

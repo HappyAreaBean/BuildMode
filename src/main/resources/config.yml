@@ -26,3 +26,5 @@ WorldsList:
 # Blacklisted Worlds: can't build in worlds if on the list.
 # Whitelisted Worlds: can build in worlds if on the list.
 blacklistedWorlds: false
+
+updateCheck: true
